@@ -12,7 +12,7 @@ THEN
 	RESPONSE #100
 		SetGlobal("didOnce","LOCALS",1)
 		ReallyForceSpell(Myself,CLERIC_RESIST_FIRE)
-		ReallyForceSpell(Myself,CLERIC_RESIST_COLD)
+		// ReallyForceSpell(Myself,CLERIC_RESIST_COLD)
 		ReallyForceSpell(Myself,CLERIC_PROTECTION_FROM_LIGHTNING)
 END
 
