@@ -1,0 +1,51 @@
+// -*- coding: cp1252 -*-
+
+// Translators, please note well: please translate component names only of the components you plan to translate fully.
+// Untranslated components should retain their english titles to distinguish them from those which have been translated.
+// Components without TRAs should not be translated as their text is subject to change. Check "Fully TRAified components.txt".
+@1 = ~额外的影贼内容~
+@2 = ~竖琴手/萨尔的备选剧情~
+@3 = ~雷诺尔事件的扩展~
+@4 = ~铜冠旅店里的阴谋~
+@5 = ~逃出布林罗岛~
+@6 = ~杂项增强~
+
+@8 = ~药剂任务 By Rahul Kanakia~
+@9 = ~德鲁伊据点扩展~
+@10 = ~地狱试炼修改~
+@11 = ~IO2对话&战斗增强~
+@12 = ~只有IO2对话增强~
+@13 = ~增强的绿洲II~
+@14 = ~普通AI增强~
+@15 = ~增强评议会大楼~
+@16 = ~卡瑟利血战~
+@17 = ~在布林罗岛拯救沙尼克~
+@18 = ~书店老板遭窃案~
+@19 = ~树精橡实的新命运~
+@20 = ~贝萨曼的悲剧~
+@21 = ~奴隶的进一步参与~
+@22 = ~送索兰尼亚骑士回家~
+@23 = ~巫妖纳扎里尔~
+@24 = ~夸罗的友谊~
+@25 = ~语言与智慧~
+@26 = ~幽暗地域的捷径~
+@27 = ~仅限AI改进~
+@28 = ~AI改进和喊叫扩展~
+
+@30 = ~地狱难度的盗窃~
+@31 = ~精灵法庭~
+@32 = ~仅限Boss改进~
+@33 = ~协商奖励~
+@34 = ~生物和区域改进~
+@35 = ~所有生物改进~
+@36 = ~所有生物和区域改进~
+@37 = ~仅限任务内容~
+@38 = ~任务内容及恶魔修订~
+@39 = ~附加随机遭遇~
+@40 = ~无附加随机遭遇~
+
+@98 = ~任务包仅适用于BG2和BGT~
+@99 = ~检测到Big PictureBP，跳过AI改进组件~
+@100 = ~跳过ToB的特定组件~
+
+// d0quest.tra starts at @101

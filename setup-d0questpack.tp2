@@ -161,6 +161,12 @@ LANGUAGE ~Russian~
          ~questpack/translations/english/setup.tra~
          ~questpack/translations/russian/d0quest.tra~
          ~questpack/translations/russian/setup-%WEIDU_OS%.tra~
+LANGUAGE ~Simplified Chinese (by Lzw104522773)~
+         ~schinese~
+         ~questpack/translations/english/d0quest.tra~
+         ~questpack/translations/english/setup.tra~
+         ~questpack/translations/schinese/d0quest.tra~
+         ~questpack/translations/schinese/setup.tra~
 
 
 //////////////////////////////////////////////////////////////////////
