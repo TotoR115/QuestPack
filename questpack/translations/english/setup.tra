@@ -44,6 +44,7 @@
 @39 = ~With Additional Random Encounters~
 @40 = ~Without Additonal Random Encounters~
 
+@97 = ~Skipping EE or ToBex-specific component.~
 @98 = ~Quest Pack is only available for BG2 and BGT~
 @99 = ~BP detected, skipping AI enhancements.~
 @100 = ~Skipping ToB-specific component.~
