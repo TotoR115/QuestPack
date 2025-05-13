@@ -2,7 +2,9 @@
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~fl#qpds.mrk~ BEGIN
   PRINT ~Initializing Detectable Spells installation ...~                    // let the user know that DS are being installed
-  INCLUDE ~%MOD_FOLDER%/tp2/ds/ds.tph~
-  LAF detectable_spells END
+  OUTER_SPRINT path ~%MOD_FOLDER%/tp2/ds~
+  INCLUDE ~%path%/ds.tph~
+  LAF detectable_spells_setup STR_VAR path END
+  LAF detectable_spells STR_VAR path table = ~cddetect.2da~ END
   COPY_EXISTING ~sw1h01.itm~ ~override/fl#qpds.mrk~
 END

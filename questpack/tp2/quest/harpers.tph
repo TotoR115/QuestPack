@@ -164,13 +164,6 @@ COPY_EXISTING ~AR0407.ARE~ ~override~       /* Prebek's Home */
   WRITE_ASCII 0x94 "AR0407" #8
 
 EXTEND_TOP ~AR0407.bcs~ ~questpack/harpers/u!0407.baf~       /* Prebek's Home, Shazzellim, Container 3, Item 1 */ EVALUATE_BUFFER
-    
-COPY_EXISTING ar0407.are override	/* Prebek's Home, remove Shazzellim in container if added by another mod (unfinished business) */
-  LAUNCH_PATCH_FUNCTION DELETE_AREA_ITEM
-    STR_VAR
-     item_to_delete		= "sw1h50"
-  END
-BUT_ONLY
 
 COPY_EXISTING ~C6ELHAN.CRE~ ~override~   /* Remove Elhan's evil-aligned Shazzellim scimitars */
               ~SUELHAN.CRE~ ~override~
