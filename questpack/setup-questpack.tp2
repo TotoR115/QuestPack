@@ -193,7 +193,7 @@ INCLUDE ~questpack/tp2/tactical/AI_core.tph~
 
 BEGIN @36 // All Creature & Area Improvements
 DESIGNATED 1
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @98
+REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~ OR (GAME_IS ~soa tob bgt~ AND MOD_IS_INSTALLED tobex.tp2 100)) @97
 SUBCOMPONENT @34 // Creature & Area Improvements
 
 INCLUDE ~questpack/tp2/tactical/tactical_boss.tph~
