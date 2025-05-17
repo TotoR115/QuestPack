@@ -1,9 +1,12 @@
 IF
   !Dead("demmag")
   !Dead("d0qpwiwi")
-  !Global("D0WilburReturns","AR0530",1)
+  Global("D0WilburReturns","AR0530",0)
+  Global("fl#qpWilburTalked","GLOBAL",1)
 THEN
   RESPONSE #100
     SetGlobal("D0WilburReturns","AR0530",1)
     CreateCreature("d0qpwiw2",[520.306],1)
 END
+
+
